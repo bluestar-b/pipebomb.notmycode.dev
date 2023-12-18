@@ -8,31 +8,29 @@ const Product = () => {
           Title="pipe bomb"
           Desc="A very cool pipe bomb"
           image="/pipebomb.jpg"
-        ></ProductCard>
-
+        />
         <ProductCard
           Title="pipe bomb"
           Desc="A very cool pipe bomb"
           image="/pipebomb.jpg"
-        ></ProductCard>
-
+        />
         <ProductCard
           Title="pipe bomb"
           Desc="A very cool pipe bomb"
           image="/pipebomb.jpg"
-        ></ProductCard>
+        />
 
         <ProductCard
-          Title="pipe bomb"
-          Desc="A very cool pipe bomb"
-          image="/pipebomb.jpg"
-        ></ProductCard>
+          Title="Very cool nazi flag"
+          Desc="Old memories"
+          image="/nazi.png"
+        />
 
         <ProductCard
-          Title="pipe bomb"
-          Desc="A very cool pipe bomb"
-          image="/pipebomb.jpg"
-        ></ProductCard>
+          Title="Supermarine Spitfire"
+          Desc="Very nice plane"
+          image="/spitfire.jpg"
+        />
       </div>
     </div>
   )

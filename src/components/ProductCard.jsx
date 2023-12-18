@@ -3,7 +3,7 @@ import Image from "next/image"
 const ProductCard = ({ Title, Desc, image }) => {
   return (
     <div>
-      <div className="card w-96 rounded-lg border-2 border-gray-200 bg-base-200  shadow-xl">
+      <div className="card max-w-full rounded-lg border-2 border-gray-200 bg-base-200 shadow-xl  lg:w-96">
         <figure>
           <Image
             src={image}
@@ -18,7 +18,7 @@ const ProductCard = ({ Title, Desc, image }) => {
           <h2 className="card-title text-gray-200/90">{Title}</h2>
           <p className="text-gray-200/70">{Desc}</p>
           <div className="card-actions justify-end">
-            <button className="btn btn-outline rounded-lg border-2 border-gray-200">
+            <button className="btn btn-outline rounded-lg border-2">
               Buy now
             </button>
           </div>
