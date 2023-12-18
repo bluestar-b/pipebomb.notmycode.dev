@@ -18,7 +18,7 @@ const ProductCard = ({ Title, Desc, image }) => {
           <h2 className="card-title text-gray-200/90">{Title}</h2>
           <p className="text-gray-200/70">{Desc}</p>
           <div className="card-actions justify-end">
-            <button className="btn btn-outline rounded-lg border-2">
+            <button className="btn btn-outline rounded-lg border-2 border-gray-200">
               Buy now
             </button>
           </div>
