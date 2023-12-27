@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 const Hero = () => {
   return (
     <div className="hero min-h-screen bg-base-200">
@@ -7,7 +9,12 @@ const Hero = () => {
             lorem ipsum
           </h1>
           <p className="py-6"></p>
-          <button className="btn btn-primary rounded-lg">explore</button>
+          <Link
+            className="rounded-xl border-2 p-4 text-xl font-bold transition-colors hover:bg-gray-100 hover:text-black"
+            href="/products"
+          >
+            Explore
+          </Link>
         </div>
       </div>
     </div>

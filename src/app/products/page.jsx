@@ -11,9 +11,15 @@ const Product = () => {
         />
 
         <ProductCard
-          Title="Supermarine Spitfire"
-          Desc="Very nice plane"
-          image="/spitfire.jpg"
+          Title="pipe bomb"
+          Desc="A very cool pipe bomb"
+          image="/pipebomb.jpg"
+        />
+
+        <ProductCard
+          Title="pipe bomb"
+          Desc="A very cool pipe bomb"
+          image="/pipebomb.jpg"
         />
       </div>
     </div>

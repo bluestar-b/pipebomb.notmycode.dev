@@ -10,7 +10,7 @@ const ProductCard = ({ Title, Desc, image }) => {
             src={image}
             className="object-fill"
             width={500}
-            height={500}
+            height={120}
             quality={70}
             alt={Title}
           />
@@ -21,7 +21,7 @@ const ProductCard = ({ Title, Desc, image }) => {
 
           <div className="card-actions items-center justify-end">
             <Badge Text="$ 2.99" />
-            <button className="btn btn-outline rounded-xl border-2 text-lg font-bold">
+            <button className="btn btn-outline rounded-xl border-2 text-lg font-bold hover:bg-gray-100">
               Buy now
             </button>
           </div>

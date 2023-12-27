@@ -1,4 +1,9 @@
+import Navbar from "~/components/Navbar"
 import "~/styles/globals.css"
+import Provider from "~/components/Provider"
+import { Inter } from "next/font/google"
+
+const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
   title: "Pipe Bomb shop",
@@ -8,7 +13,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={inter.className}>
+        <Provider>
+          <Navbar />
+          {children}
+        </Provider>
+      </body>
     </html>
   )
 }

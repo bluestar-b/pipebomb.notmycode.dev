@@ -1,1 +1,1 @@
-An fucking straightforward boilerplate for typescript haters
+just for fun
