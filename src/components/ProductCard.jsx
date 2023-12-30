@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Badge from "./Badge"
 
-const ProductCard = ({ Title, Desc, image }) => {
+const ProductCard = ({ Title, Desc, image, Price }) => {
   return (
     <div>
       <div className="card max-w-full rounded-lg border-2 border-gray-200 bg-base-200 shadow-xl  lg:w-96">
@@ -20,7 +20,7 @@ const ProductCard = ({ Title, Desc, image }) => {
           <p className="text-gray-200/70">{Desc}</p>
 
           <div className="card-actions items-center justify-end">
-            <Badge Text="$ 2.99" />
+            <Badge Text={Price} />
             <button className="btn btn-outline rounded-xl border-2 text-lg font-bold hover:bg-gray-100">
               Buy now
             </button>
