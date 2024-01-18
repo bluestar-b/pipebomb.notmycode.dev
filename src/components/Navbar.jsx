@@ -38,16 +38,7 @@ const Navbar = () => {
             </div>
           </ul>
 
-          <div className="fixed right-0 p-2">
-            <div className="avatar">
-              <div className="w-11 rounded-full">
-                <img
-                  src="https://avatars.githubusercontent.com/u/105431607?v=4"
-                  alt=""
-                />
-              </div>
-            </div>
-          </div>
+     
         </div>
       </nav>
     </>

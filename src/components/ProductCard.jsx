@@ -4,7 +4,7 @@ import Badge from "./Badge"
 const ProductCard = ({ Title, Desc, image, Price }) => {
   return (
     <div>
-      <div className="card max-w-full rounded-lg border-2 border-gray-200 bg-base-200 shadow-xl  lg:w-96">
+      <div className="card max-w-full rounded-lg border-2 border-white bg-base-200 shadow-xl  lg:w-96">
         <figure>
           <Image
             src={image}
@@ -21,7 +21,7 @@ const ProductCard = ({ Title, Desc, image, Price }) => {
 
           <div className="card-actions items-center justify-end">
             <Badge Text={Price} />
-            <button className="btn btn-outline rounded-xl border-2 text-lg font-bold hover:bg-gray-100">
+            <button className=" rounded-lg border border-white py-0.5 px-2.5 h-fit hover:bg-white hover:text-black border-2 text-lg font-bold hover:bg-gray-100">
               Buy now
             </button>
           </div>
