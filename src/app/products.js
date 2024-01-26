@@ -14,7 +14,7 @@ const products = [
   {
     title: "IC 1101",
     description: "Buy if u can",
-    price: 0,
+    price: "卍",
     image: "/ic.jpg",
   },
 ]
