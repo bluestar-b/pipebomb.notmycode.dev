@@ -1,5 +1,8 @@
+"use client"
+
 import Image from "next/image"
 import Badge from "./Badge"
+import { mail } from "~/lib/actions/mail"
 
 const ProductCard = ({ Title, Desc, image, Price }) => {
   return (
@@ -21,7 +24,12 @@ const ProductCard = ({ Title, Desc, image, Price }) => {
 
           <div className="card-actions items-center justify-end">
             <Badge Text={Price} />
-            <button className=" rounded-lg border border-white py-0.5 px-2.5 h-fit hover:bg-white hover:text-black border-2 text-lg font-bold hover:bg-gray-100">
+            <button
+              onClick={() => {
+                mail({ item: Title})
+              }}
+              className=" h-fit rounded-lg border-2 border-white px-2.5 py-0.5 text-lg font-bold hover:bg-gray-100 hover:bg-white hover:text-black"
+            >
               Buy now
             </button>
           </div>

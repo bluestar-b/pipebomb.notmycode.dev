@@ -1,7 +1,7 @@
 const Badge = ({ Text }) => {
   return (
     <div className="">
-      <div className="inline-flex w-fit items-center rounded-lg border-2 border-white py-0.5 px-2.5 h-fit hover:bg-white hover:text-black">
+      <div className="inline-flex h-fit w-fit items-center rounded-lg border-2 border-white px-2.5 py-0.5 hover:bg-white hover:text-black">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"
